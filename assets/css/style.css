@@ -4,11 +4,13 @@ body {
 }
 
 .header{
+    margin: auto;
     width: 960px;
     
 }
 
 .container {
+    
     width: 960px;
 }
 
@@ -44,6 +46,7 @@ body {
 }
 
 .content-wrapper {
+    margin: auto;
     width: 960px;
 }
 
