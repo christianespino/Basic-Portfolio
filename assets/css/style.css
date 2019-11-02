@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    
+
     width: 960px;
 }
 
@@ -66,11 +66,11 @@ body {
     color: #4aaaa5;
 }
 
-.content .photo {
+/* .content.photo {
     width: 200px;
     float: left;
     margin: 0 20px 20px 0;
-}
+} */
 
 .footer-wrap {
     background: #666;
@@ -90,6 +90,27 @@ body {
     width: 300px;
     height: 200px;
 }
+
+.images{
+    width: auto;
+    height: 200px;
+    margin: 20px;
+    background-color: blue;
+}
+.left{
+    float: left;
+}
+.right{
+    float: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    max-width: 400px;
+  }
 
 .photo-text {
     position: relative;
